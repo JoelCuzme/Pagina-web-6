@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dari Artesanal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header class="barra-superior">
+        <h1>Dari Artesanal</h1>
+    </header>
+
+    <div class="contenido-principal">
+        <form id="miFormulario">
+            <h2>Registro</h2>
+
+            <label>Nombre:</label>
+            <input type="text" id="nombre">
+            <p id="errorNombre" class="error"></p>
+
+            <label>Correo:</label>
+            <input type="email" id="correo">
+            <p id="errorCorreo" class="error"></p>
+
+            <label>Contraseña:</label>
+            <input type="password" id="pass">
+            <p id="errorPass" class="error"></p>
+
+            <label>Confirmar Contraseña:</label>
+            <input type="password" id="passConfirm">
+            <p id="errorPassConfirm" class="error"></p>
+
+            <label>Edad:</label>
+            <input type="number" id="edad">
+            <p id="errorEdad" class="error"></p>
+
+            <button type="submit" id="botonEnviar" disabled>Enviar</button>
+            <button type="reset" id="botonReset">Limpiar</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
